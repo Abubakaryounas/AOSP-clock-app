@@ -20,11 +20,7 @@
     android:layout_height="wrap_content"
     android:gravity="center_horizontal">
 
-    <!-- Left gutter. -->
-    <Space
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="@integer/gutter_width_percent" />
+
 
     <LinearLayout
         android:layout_width="0dp"
@@ -71,10 +67,6 @@
             android:background="@color/hairline" />
     </LinearLayout>
 
-    <!-- Right gutter. -->
-    <Space
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="@integer/gutter_width_percent" />
+
 
 </LinearLayout>

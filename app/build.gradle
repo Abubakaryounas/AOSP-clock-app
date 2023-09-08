@@ -41,13 +41,14 @@ android {
     }
 
     sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
+        main.java.srcDirs += 'src/main/java'
     }
 
     buildFeatures {
         viewBinding = true
         dataBinding = true
     }
+
 
     lintOptions {
         checkReleaseBuilds false
@@ -87,6 +88,7 @@ android {
         }
     }
 }
+
 
 dependencies {
 
